@@ -40,6 +40,6 @@ http://localhost//{folder_with_project_files_inside}/api/author/read_one.php?id=
 http://localhost//{folder_with_project_files_inside}/api/author/read_top_3.php
 
 DB:
-Db configuration file is under /config/db.ini
+Db configuration file is under api/config/db.ini
 
 
