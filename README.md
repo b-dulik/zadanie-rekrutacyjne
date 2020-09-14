@@ -4,7 +4,7 @@ Simple news article system
 To run this project locally you can use XAMPP.
 Pull the project files directly to folder created under xampp/htdocs/ or download ZIP and extract those files there.
 
-in phpMyAdmin import prepared database from file “zadanie_db.sql”
+in phpMyAdmin create db named "zadanie_db" and import prepared database from file “zadanie_db.sql”
 
 To access prepared website enter url:
 http://localhost/{folder_with_project_files_inside} /index.php
