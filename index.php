@@ -68,7 +68,7 @@ $db = $database->getConnection();
                                                         <h5>{$row['date_created']}</h5>
                                                     </header>
                                                     <p style="">{$row['header']}</p>   <br>
-                                                    <a href="show/id={$row['id']}" class="button   " bis_skin_checked="1">Więcej..</a>                                              
+                                                    <a href="show.php?id={$row['id']}" class="button   " bis_skin_checked="1">Więcej..</a>                                              
                                                 </div>
                                             </section>
 
@@ -82,45 +82,7 @@ EOT;
 					</div>
 				</div>
 
-			<!--&lt;!&ndash; Main &ndash;&gt;-->
-				<!--<div id="main-wrapper">-->
-					<!--<div class="container">-->
-						<!--<div class="row gtr-200">-->
-							<!--<div class="col-4 col-12-medium">-->
 
-								<!--&lt;!&ndash; Sidebar &ndash;&gt;-->
-									<!--<div id="sidebar">-->
-										<!--<section class="widget thumbnails">-->
-											<!--<h3>Condimentum curae</h3>-->
-											<!--<div class="grid">-->
-												<!--<div class="row gtr-50">-->
-													<!--<div class="col-6"><a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a></div>-->
-													<!--<div class="col-6"><a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a></div>-->
-													<!--<div class="col-6"><a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a></div>-->
-													<!--<div class="col-6"><a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a></div>-->
-												<!--</div>-->
-											<!--</div>-->
-											<!--<a href="#" class="button icon fa-file-alt">More</a>-->
-										<!--</section>-->
-									<!--</div>-->
-
-							<!--</div>-->
-							<!--<div class="col-8 col-12-medium imp-medium">-->
-
-								<!--&lt;!&ndash; Content &ndash;&gt;-->
-									<!--<div id="content">-->
-										<!--<section class="last">-->
-											<!--<h2>Eu libero arcu sem tempus?</h2>-->
-											<!--<p>Nisi ut Rutrum, col nibh sed augue parturient ipsum cras accumsan at Pellentesque et faucibus purus vel Eleifend Aliquam Consectetur nascetur, in elit duis id cep ut sit mus interdum in adipiscing commodo ata morbi enim lorem ac neque justo sociis eu magnis mi nec non suscipit</p>-->
-											<!--<p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus. Praesent semper bibendum ipsum, et tristique augue fringilla eu. Vivamus id risus vel dolor auctor euismod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat. Aliquam luctus mattis lectus sit amet phasellus quam turpis.</p>-->
-											<!--<a href="#" class="button icon solid fa-arrow-circle-right">Continue Reading</a>-->
-										<!--</section>-->
-									<!--</div>-->
-
-							<!--</div>-->
-						<!--</div>-->
-					<!--</div>-->
-				<!--</div>-->
 
 			<!-- Footer -->
 				<div id="footer-wrapper">
