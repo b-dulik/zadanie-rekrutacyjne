@@ -1,5 +1,5 @@
 Simple news article system
-*HTML template used and adapted comes from Pixelarity
+*HTML template used and adapted, comes from Pixelarity
 
 To run this project locally you can use XAMPP.
 Pull the project files directly to folder created under xampp/htdocs/ or download ZIP and extract those files there.
